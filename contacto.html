@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sava - heladeria</title>
+        <meta
+            name="description"
+            content="El mejor helado del pais
+    "
+        />
+        <meta
+            name="keywords"
+            content="SAVA, HELADERIA, SABORES, GUSTOS, CUCURUCHO, FRUTILLA, SAMBAYON, CHOCOCLATE, HELADO, PALITO, FRIO"
+        />
+        <!-- Link Bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <!-- Link Css -->
+        <link rel="stylesheet" href="./styles/estilos.css" />
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header>
+         <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html"
+                                    >Sava Heladeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./locales.html">Local</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pedidospers.html">Pedidos Personalizados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- End of Nav Menu -->
+        </header>
+        <!-- End of header -->
+        <!-- Main Content -->
+        <main class="contactMain">
+            <!-- Form -->
+            <div class="formulario">
+                <form action="">
+                    <h2>Contactenos</h2>
+                    <!-- Name -->
+                    <label for="name"></label>
+                    <input
+                        class="formBox"
+                        type="text"
+                        required
+                        id="name"
+                        placeholder="Nombre completo:*"
+                    />
+                    <!-- E-Mail -->
+                    <label for="email"></label>
+                    <input
+                        class="formBox"
+                        type="email"
+                        id="email"
+                        required
+                        placeholder="Correo electronico:*"
+                    />
+                    <!-- Phone number -->
+                    <label for="tel"></label>
+                    <input
+                        class="formBox"
+                        type="tel"
+                        id="tel"
+                        required
+                        placeholder="Teléfono celular:*"
+                    />
+                    <!-- Sex -->
+                    <legend>Sexo:</legend>
+                    <select class="formBox" name="sex" id="sex">
+                        <option value="placeholder" disabled selected>Elija una opción</option>
+                        <option value="Mujer">Mujer</option>
+                        <option value="Hombre">Hombre</option>
+                        <option value="None">Prefiero no decirlo</option>
+                    </select>
+                    <!-- Comments -->
+                    <textarea
+                        placeholder="Comentarios:"
+                        class="formBox"
+                        name="comments"
+                        id="comment"
+                        cols="25"
+                        rows="3"
+                    ></textarea>
+                    <!-- Buttons -->
+                    <input value="Enviar" class="formButton" type="submit" />
+                    <input value="Restablecer" class="formButton" type="reset" />
+                </form>
+                <!-- End of Form -->
+                <!-- Location -->
+                <div class="Lctn">
+                    <h2 style="text-align: center">Ubicación</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13133.083578399523!2d-58.441009!3d-34.622594!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7f2c0f3722a1d0b9!2sHelados%20Artesanales%20Centenera!5e0!3m2!1ses-419!2sar!4v1670903820920!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </main>
+        <!-- End of Main Content -->
+        <!-- Footer -->
+<footer>
+            <!-- Nav menu -->
+            <nav>
+                <ul class="navFooter">
+                    <li class="liNav"><a class="onPage" href="./index.html">Inicio</a></li>
+                    <li class="liNav"><a href="/productos.html">Productos</a></li>
+                    <li class="liNav"><a href="./locales.html">Local</a></li>
+                    <li class="liNav"><a href="./pedidospers.html">Pedidos Personalizados</a></li>
+                    <li class="liNav"><a href="./contacto.html">Contacto</a></li>
+                    <li class="liNav">
+                    </li>
+                </ul>
+            </nav>
+            <!-- Contact info -->
+            <!-- Business hours -->
+            <div class="datosContacto horario">
+                <li>Días y Horarios del local</li>
+                <li>Lun. a Vie.: 11 a 23 hs.</li>
+                <li>Sábados: 12 a 00 hs.</li>
+
+                <!-- Social media -->
+                <div>
+                    <a
+                        target="blank"
+                        title="Instagram"
+                        href="https://www.instagram.com/saantiperez_/"
+                    >
+                        <span
+                            title="Instagram"
+                            class="iconify"
+                            data-icon="akar-icons:instagram-fill"
+                            data-inline="false"
+                        >
+                        </span>
+                    </a>
+                    <a
+                        target="blank"
+                        href="https://www.google.com/maps/place/Helados+Artesanales+Centenera/@-34.622594,-58.441009,15z/data=!4m5!3m4!1s0x0:0x7f2c0f3722a1d0b9!8m2!3d-34.6219469!4d-58.4410374?hl=es-419"
+                    >
+                        <span
+                            title="Ubicación"
+                            class="iconify"
+                            data-icon="carbon:location-filled"
+                            data-inline="false"
+                        >
+                        </span>
+                    </a>
+                </div>
+                <!-- End of social media -->
+            </div>
+            <!-- Address and phone -->
+            <div class="datosContacto address">
+                <li>Tel: 11 38255226</li>
+                <li>Av. la plata 1243</li>
+                <li>Caballito, Buenos Aires</li>
+                <li>Argentina</li>
+            </div>
+            <!-- Copyright -->
+            <div class="copyRight">
+                <p>Copyright© 2022</p>
+            </div>
+        </footer>
+        <!-- End of Footer -->
+        <!-- js Bootstrap -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+        <!-- js Iconify -->
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
+</body>
+</html>
